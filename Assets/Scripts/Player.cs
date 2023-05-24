@@ -19,8 +19,8 @@ public class Player : MonoBehaviour
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
         if (movement != Vector3.zero)
         {
-            Quaternion toRotation = Quaternion.LookRotation(-movement, Vector3.up);
-            rb.MoveRotation(Quaternion.Lerp(rb.rotation, toRotation, 0.5f));
+            //Quaternion toRotation = Quaternion.LookRotation(-movement, Vector3.up);
+            //rb.MoveRotation(Quaternion.Lerp(rb.rotation, toRotation, 0.5f));
         }
     }
 
