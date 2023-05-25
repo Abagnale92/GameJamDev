@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: OuterMaterial
+  m_Name: OuterMaterial 1
   m_Shader: {fileID: -6465566751694194690, guid: 603dff6969ffe4d4087b146366c06fe0,
     type: 3}
   m_ValidKeywords: []
@@ -123,10 +123,10 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorClose: {r: 1, g: 0, b: 0, a: 0}
-    - _ColorFar: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorFar: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientRange: {r: 0, g: 2, b: 0, a: 0}
-    - _Position: {r: 111.0789, g: -82.10482, b: 56.78714, a: 0}
+    - _Position: {r: -9.2251425, g: -9.04, b: -73.24706, a: 0}
     - _Scale: {r: 50, g: 50, b: 50, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
