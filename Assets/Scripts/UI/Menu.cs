@@ -4,10 +4,11 @@ using UnityEngine.UI;
 
 [RequireComponent(typeof(Canvas))]
 public class Menu : MonoBehaviour {
-	[SerializeField] private Canvas canvas;
 	[SerializeField] private Button btnNewGame;
 	[SerializeField] private Button btnCredits;
 	[SerializeField] private Button btnQuit;
+	
+	private Canvas canvas;
 
 	private void Awake() {
 		canvas = GetComponent<Canvas>();

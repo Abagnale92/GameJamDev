@@ -38,10 +38,12 @@ public class SceneGameManager : Singleton<SceneGameManager> {
 
 	public void LoadGame() {
 		SceneManager.LoadScene(1, LoadSceneMode.Single);
+		LoadGameUI();
 	}
 	
 	public void LoadMenu() {
 		SceneManager.LoadScene(0, LoadSceneMode.Single);
+		LoadMenuUI();
 	}
 
 	public void ReloadScene() {
